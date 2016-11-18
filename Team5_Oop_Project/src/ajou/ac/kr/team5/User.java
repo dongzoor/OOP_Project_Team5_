@@ -42,7 +42,7 @@ public class User{
         System.out.println(" 전체 학생 출력");
         System.out.println("==========================================================");
         for (Member student : memberlist) {
-            System.out.format("id : %s 이름 : %s  : %d \n",student.getId(), student.getName(), student.getAge());
+            System.out.format("id : %s 이름 : %s 나이 : %d \n",student.getId(), student.getName(), student.getAge());
         }
         System.out.println("==========================================================");
     }
@@ -62,14 +62,7 @@ public class User{
 		System.out.print("PASSWORD: ");
 		password = sc.nextLine();
 		
-		/*
-		user.Join(memberlist);
-		user.Save(memberlist);*/
-	
-		checklist = user.Load(memberlist);
-		
-		user.show(memberlist);
-		
+
 		if(checklist.contains(id) == false){ //가입이 안돼있으면,
 			
 			System.out.print("NAME: ");
