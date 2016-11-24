@@ -8,10 +8,10 @@ public class Member implements Serializable {
 	 private String id;
 	 private String password;
 	 private String name;
-	 private int age;
+	 private String age;
 	 
 	 public Member(){}
-	 public Member(String id,String password, String name, int age){
+	 public Member(String id,String password, String name, String age){
 		 super();
 		 this.id = id;
 		 this.password = password;
@@ -36,10 +36,10 @@ public class Member implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 	 
