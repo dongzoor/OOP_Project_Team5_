@@ -87,7 +87,7 @@ public class Quiz1 extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				JOptionPane.showMessageDialog(contentPane, "Answer is Constellation! ");
-//				JButton button= (JButton)e.getSource();   Ã¹¹øÂ° ´äÀÌ ¸ÂÀ¸¸é 
+//				JButton button= (JButton)e.getSource();   Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 //				if(button==)
 			}
 		});
